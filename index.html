@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV – Mahasiswa Manajemen Informasi Kesehatan</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="wrap">
+      <article class="card">
+        <!-- Foto -->
+        <aside class="left">
+          <div class="avatar">
+            <img src="img/foto.JPEG" alt="Foto Profil" />
+          </div>
+
+          <div class="identity">
+            <div class="name">Brigita Natalia Br Surbakti</div>
+            <div class="role">Mahasiswa Manajemen Informasi Kesehatan</div>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn primary" id="btn-download">Download CV</button>
+            <button class="btn" id="btn-portfolio">Portofolio</button>
+            <button class="btn ghost" id="btn-contact">Kontak</button>
+          </div>
+        </aside>
+
+        <!-- Isi CV -->
+        <section class="right">
+          <div class="headline">
+            <h1>Ringkasan Profesional</h1>
+            <div class="contact">Bogor · brigitanatalia75@gmail.com · 085760907167</div>
+          </div>
+
+          <div class="section">
+            <h3>Profil Singkat</h3>
+            <p class="meta">
+              Saya adalah seorang Mahasiswa Program Studi Manajemen Informasi Kesehatan yang bekerja
+              sebagai System Support dengan latar belakang pendidikan D3 Rekam Medis dan Informasi 
+              Kesehatan. Berpengalaman dalam membantu operasional sistem, melakukan troubleshooting,
+              serta mendukung implementasi aplikasi, khususnya di lingkungan kesehatan.
+              <br><br>
+              Memiliki kemampuan memahami alur kerja rumah sakit, kebutuhan pengguna,
+              serta komunikasi yang baik dalam menjembatani tim teknis dan user. Berkomitmen 
+              memberikan pelayanan yang cepat, tepat, dan solutif untuk memastikan sistem 
+              berjalan optimal dan mendukung kinerja organisasi.
+            </p>
+          </div>
+
+          <div class="section">
+            <h3>Keahlian Utama</h3>
+            <div class="skills">
+              <span class="skill">Troubleshooting Software & Hardware</span>
+              <span class="skill">User Support & Helpdesk</span>
+              <span class="skill">Analisis Masalah Sistem</span>
+              <span class="skill">Konfigurasi & Maintenance Aplikasi</span>
+              <span class="skill">Jaringan Dasar</span>
+              <span class="skill">Dokumentasi Teknis</span>
+              <span class="skill">UAT (User Acceptance Testing)</span>
+              <span class="skill">Manajemen Hak Akses User</span>
+              <span class="skill">Monitoring Sistem</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pengalaman / Praktik</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2023 – Sekarang</div>
+                <div class="desc">
+                  <strong>System Support</strong> · Instalasi SIMRS  
+                  Membantu troubleshooting, testing sistem, 
+                  pendampingan user.
+                </div>
+              </div>
+              <div class="item">
+                <div class="year">2023</div>
+                <div class="desc">
+                  <strong>PKL</strong> · RSIJ Pondok Kopi
+                  <br> Melayani pendaftaran, mendistribusikan berkas, 
+                  menganalisa desain formulir, perhitungan statistik rs.
+                </div>
+              </div>
+              <div class="item">
+                <div class="year">2022</div>
+                <div class="desc">
+                  <strong>PKL</strong> · RS Marinir Cilandak & Puskesmas Palmerah
+                  <br> Melayani pendaftaran, mendistribusikan berkas, menganalisa KLPCM.
+                </div>
+              </div>
+              <div class="item">
+                <div class="year">2021</div>
+                <div class="desc">
+                  <strong>PKL</strong> · RS Pasar Rebo
+                  <br>
+                  Melayani pendaftaran, mendistribusikan berkas, retensi formulir, 
+                  melakukan asembling dan coding.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pendidikan</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2025 – Sekarang</div>
+                <div class="desc"><strong>D4 / S1 Manajemen Informasi Kesehatan</strong></div>
+              </div>
+
+              <div class="item">
+                <div class="year">2020 - 2023</div>
+                <div class="desc"><strong>D3 / Rekam Medis dan Informasi Kesehatan</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <footer>Institut Kesehatan Deli Husada @2025</footer>
+        </section>
+      </article>
+    </main>
+
+    <script>
+      document.getElementById("btn-download").onclick = () => window.print();
+      document.getElementById("btn-portfolio").onclick = () => window.open("#", "_blank");
+      document.getElementById("btn-contact").onclick = () => (window.location.href = "mailto:email@example.com");
+    </script>
+  </body>
+</html>
